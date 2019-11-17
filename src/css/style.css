@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 8px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#container {
+  margin: auto;
+  width: max-content;
+  border: 1px solid dimgray;
+}
+
+button {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #000000;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: 'Alatsi', sans-serif;
+  font-weight:300;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color:#ffffff;
+  background-color: rgb(56, 56, 56);
+}
+  
+@media all and (max-width: 30em) {
+  button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+.button {
+  width: max-content;
+  margin: 0 auto 10px auto;
+}
+
+.square {
+  flex: 1 1;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 480px;
+  display: flex;
+}
